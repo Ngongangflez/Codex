@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="calculator_style.css">
+</head>
+<body>
+	<center class="heading">&#8512; Calculator &#8508; <br>  </center>
+	<center><font size="5px" color="blue">By NGONGANG PARFAIT</font></center>
+
+<div class="main_container">
+    <p class="screen1" id="screen1"></p>
+    <div class="button_container" >
+
+			<button class="b7" id="b7">7</button>
+			<button class="b8" id="b8">8</button>
+			<button class="b9" id="b9">9</button>
+			<button class="b_cancel" id="b_cancel" >C</button>
+
+			<button class="b4" id="b4">4</button>
+			<button class="b5" id="b5">5</button>
+			<button class="b6" id="b6">6</button>
+			<button class="s/" id="sdiv">/</button>
+
+			<button class="b1" id="b1">1</button>
+			<button class="b2" id="b2">2</button>
+			<button class="b3" id="b3">3</button>
+			<button class="s*" id="smult">*</button>
+
+			<button class="b0" id="b0">0</button>
+			<button class="s+" id="splus">+</button>
+			<button class="s-" id="smins">-</button>
+			<button class="=" id="sequal">=</button>
+
+	</div>
+</div>
+<script src="calculator_javascript.js"></script>
+	</body>
+</html>
