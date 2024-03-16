@@ -1,0 +1,60 @@
+
+body{
+	background-color: #c5c2c2;
+}
+.heading{
+	font-size: 60px;
+	font-family: "forte";
+	margin-top: 20px;
+}
+.main_container{
+	display: block;
+	width: 370px;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	background-color: #3f3c3c;
+	padding: 10px;
+	border: 2px solid #ffb700;
+	border-radius: 5px;
+}
+
+.button_container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	border-radius: 5px;
+	background-color: #3f3c3c;
+	padding: 5px;
+}
+button{
+	height: 70px;
+	width: 80px;
+	font-size: 30px;
+	margin : 5px;
+	background-color: #8d8d8d;
+	transition: opacity 0.15s;
+	cursor: pointer;
+	border-radius: 5px;
+}
+button:hover{
+	opacity: 0.8;
+	background-color: lightgreen;
+
+}
+button:active{
+	opacity: 0.4;
+
+}
+.screen1{
+	background-color: white;
+	height: 65px;
+	padding-top: 10px;
+	padding-right: 20px;
+	margin: 5px;
+	text-align: right;
+	font-size: 50px;
+	font-weight: bold;
+	color: blue;
+	overflow: hidden;
+	border-radius: 5px;
+}
